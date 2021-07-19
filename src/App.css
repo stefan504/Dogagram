@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* 
+Air Force Blue – #364C75
+Monarch Red – #800B1B
+Romaine Green – #8ABC25
+Marzipan Yellow – #F8E195
+Spring Blue – #B7D1E0 */
+
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

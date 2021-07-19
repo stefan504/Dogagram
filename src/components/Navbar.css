@@ -1,0 +1,19 @@
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.2em 3em;
+}
+.nav-container a {
+	color: #333;
+	text-decoration: none;
+}
+.nav-items .list {
+	display: flex;
+	list-style: none;
+}
+
+.nav-items .list a {
+	color: #333;
+	text-decoration: none;
+	margin-left: 1em;
+}
