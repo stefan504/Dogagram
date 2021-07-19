@@ -12,20 +12,23 @@ function App() {
 		<div className="App">
 			<Router>
 				<Navbar />
+				<Route exact path="/">
+					<Landing />
+					<Book />
+				</Route>
+
 				<Switch>
-					<Route path="/news">
+					<Route exact path="/news">
 						<News />
 					</Route>
-					<Route path="/stay&plan">
+					<Route exact path="/stay&plan">
 						<Stay />
 					</Route>
-					<Route path="/explore">
+					<Route exact path="/explore">
 						<Explore />
 					</Route>
 				</Switch>
 			</Router>
-			<Landing />
-			<Book />
 		</div>
 	);
 }
