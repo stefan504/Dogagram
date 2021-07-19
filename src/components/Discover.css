@@ -1,0 +1,66 @@
+.discover-container {
+	margin: 4em 0;
+	background-color: var(--blue);
+}
+
+.line {
+	text-align: center;
+	color: #fff;
+	padding: 2em;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'a a b'
+		'c d e';
+	row-gap: 10px;
+	column-gap: 10px;
+	padding: 0 3em;
+	height: 78vh;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.grid-1 {
+	background-image: url('../assets/images/nss.jpg');
+	background-position: center;
+	background-size: cover;
+	grid-area: a;
+}
+.grid-2 {
+	background-image: url('../assets/images/romantic.jpg');
+	background-position: center;
+	background-size: cover;
+	grid-area: b;
+}
+.grid-3 {
+	grid-area: c;
+	background-image: url('../assets/images/family.jpg');
+	background-position: bottom;
+	background-size: cover;
+}
+.grid-4 {
+	background-image: url('../assets/images/senior.jpg');
+	background-position: center;
+	background-size: cover;
+	grid-area: d;
+}
+.grid-5 {
+	background-image: url('../assets/images/pet.jpg');
+	background-position: center;
+	background-size: cover;
+	grid-area: e;
+}
+
+.grid-item {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding: 30px;
+	transition: 0.1s ease-in-out;
+}
+.grid-item:hover {
+	filter: brightness(110%);
+	transform: scale(101%);
+}

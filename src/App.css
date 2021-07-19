@@ -1,0 +1,22 @@
+:root {
+	--main-color: #364c75;
+	--blue: #082164;
+	--green: #fec830;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* 
+Elegant Blue – #031136
+Blue Bay – #434A90
+Orange Zest – #FF5903
+Watermelon Pink – #FD6B6C
+Lilac Lily – #C7A2CB*/
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}

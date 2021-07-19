@@ -1,0 +1,47 @@
+.hotel-container {
+	margin: 0 3em;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 10px;
+	grid-auto-rows: 1fr;
+}
+.book-text h2 {
+	font-weight: 800;
+	font-size: 1.9rem;
+	margin: 1em 2em;
+}
+.hotels {
+	margin: 0 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	padding: 0.2em;
+	background-color: rgb(248, 248, 248);
+	border-radius: 4px;
+}
+.hotels p {
+	color: gray;
+	font-style: italic;
+	font-size: 12px;
+}
+.img-container {
+	height: 50%;
+}
+
+.img-container img {
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.book-now {
+	text-decoration: none;
+	background-color: var(--green);
+	padding: 0.2em 0.8em;
+	color: rgb(0, 0, 0);
+	border: 1px solid black;
+	width: fit-content;
+	margin: 0.2em auto;
+	border-radius: 14px;
+}
