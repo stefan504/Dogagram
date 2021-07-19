@@ -5,6 +5,7 @@ import News from './components/News';
 import Stay from './components/Stay';
 import Explore from './components/Explore';
 import Landing from './components/Landing';
+import Book from './components/Book';
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 				</Switch>
 			</Router>
 			<Landing />
+			<Book />
 		</div>
 	);
 }

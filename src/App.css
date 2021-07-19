@@ -1,15 +1,22 @@
+:root {
+	--main-color: #364c75;
+	--blue: #031136;
+	--green: #fec830;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 /* 
-Air Force Blue – #364C75
-Monarch Red – #800B1B
-Romaine Green – #8ABC25
-Marzipan Yellow – #F8E195
-Spring Blue – #B7D1E0 */
+Elegant Blue – #031136
+Blue Bay – #434A90
+Orange Zest – #FF5903
+Watermelon Pink – #FD6B6C
+Lilac Lily – #C7A2CB*/
 
 body {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
 }
